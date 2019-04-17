@@ -1,6 +1,10 @@
 :root {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: 'Saira Condensed', 'Roboto', sans-serif;
+    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+/* ===================contactBar============================ */
+

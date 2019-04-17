@@ -10,12 +10,23 @@
     color: #5abac6;
 }
 
-.hover-text-color-logo:hover,
-.hover-text-color-logo:active {
-    color: #5abac6 !important;
+.hover-white:hover,
+.hover-white:active {
+    color: #fff!important;
 }
 
 /* ===================contactBar============================ */
-.contact-Bar {
-    background-color: rgba(0, 0, 0, 0.9)
+.bg-black {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.language {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+
+.option-item {
+    padding: 10px;
+
 }

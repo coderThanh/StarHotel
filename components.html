@@ -13,25 +13,22 @@
     <link rel="stylesheet" href="resource/css/style.css">
   </head>
   <body>
-    <div class="contact-Bar small">
-        <div class=" small row  text-secondary text-muted  py-2">
+    <div class="contact-Bar small bg-black">
+        <div class=" small row text-secondary text-muted  py-2">
             <div class="container d-flex align-items-center">
                 <div class="col-6 d-flex">
                     <a class="phoneNumber text-secondary text-decoration-none  mr-2 border-right pr-2 border-secondary" href="#"><i class="fas fa-phone mr-2 "></i> 05-460789986</a>
                     <a class="email text-secondary text-decoration-none" href="#"><i class="fas fa-envelope mr-2 "></i> MAIL@STARHOTEL.COM</a>
                 </div>
                 <div class="col-6 d-flex justify-content-end">
-                    <div class="language">
-                        <div class="dropdown border-right pr-2 border-secondary">
-                            <a class="text-secondary text-decoration-none dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                LANGUAGE
-                            </a>
-                            <div class="dropdown-menu bg-dark style-dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item small text-secondary " href="#">ENGLISH</a>
-                                <a class="dropdown-item small text-secondary" href="#">FRANCE</a>
-                                <a class="dropdown-item small text-secondary" href="#">GERMAN</a>
-                            </div>
-                        </div>
+                    <div class="language-option">
+                        <a class="text-secondary text-decoration-none" href="#">
+                            <select class="language">
+                                <option value="ENGLISH" class="option-item bg-black " selected>ENGLISH</option>
+                                <option value="FRANCE" class="option-item bg-black">FRANCE</option>
+                                <option value="GERMAN" class="option-item bg-black">GERMAN</option>
+                            </select>   
+                        </a>
                     </div>
                     <div class="contact-icon">
                         <a class="text-secondary" href="#"><i class="fab fa-facebook-f px-2"></i></a>

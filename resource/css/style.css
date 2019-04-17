@@ -1,10 +1,21 @@
 :root {
     font-family: 'Saira Condensed', 'Roboto', sans-serif;
-    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+/* ==============Resusable============================== */
+
+.text-color-logo {
+    color: #5abac6;
+}
+
+.hover-text-color-logo:hover,
+.hover-text-color-logo:active {
+    color: #5abac6 !important;
+}
 
 /* ===================contactBar============================ */
-
+.contact-Bar {
+    background-color: rgba(0, 0, 0, 0.9)
+}

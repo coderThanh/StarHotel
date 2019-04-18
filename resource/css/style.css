@@ -4,15 +4,24 @@
     margin: 0;
     padding: 0;
 }
+
 /* ==============Resusable============================== */
 
 .text-color-logo {
     color: #5abac6;
 }
 
+.text-shadow {
+    text-shadow: 1px 1px 5px rgb(0,0,0,0.7);
+}
+
 .hover-white:hover,
 .hover-white:active {
     color: #fff!important;
+}
+
+.text-input {
+    font-size: 0.8rem;
 }
 
 /* ===================contactBar============================ */
@@ -30,3 +39,17 @@
     padding: 10px;
 
 }
+
+/* ========================slide header============================ */
+.slide-item {
+    height: 20rem;
+    background-image: url(https://images.vexels.com/media/users/3/144655/raw/421f642bebdb00d01783ace161cd9639-flat-hiking-landscape-illustration.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===========booking-navigation=========== */
+
+
+
+

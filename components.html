@@ -15,12 +15,12 @@
   <body>
     <div class="contact-Bar small bg-black">
         <div class=" small row text-secondary text-muted  py-2">
-            <div class="container d-flex align-items-center">
-                <div class="col-6 d-flex">
+            <div class="container-fluid d-flex align-items-center">
+                <div class="col-6 d-flex pl-5">
                     <a class="phoneNumber text-secondary text-decoration-none  mr-2 border-right pr-2 border-secondary" href="#"><i class="fas fa-phone mr-2 "></i> 05-460789986</a>
                     <a class="email text-secondary text-decoration-none" href="#"><i class="fas fa-envelope mr-2 "></i> MAIL@STARHOTEL.COM</a>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
+                <div class="col-6 d-flex justify-content-end pr-5">
                     <div class="language-option">
                         <a class="text-secondary text-decoration-none" href="#">
                             <select class="language">
@@ -164,14 +164,14 @@
 
     <div class="booking-navigation ">
         <form class="row ">
-            <div class="container bg-white  d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center py-3 " >
-                    <div class="col col-md-6 col-xl-3">
+            <div class="container bg-white px-0 d-flex flex-column flex-md-row flex-wrap justify-content-center align-items-center py-3 " >
+                    <div class="col col-md-6 col-xl-3 ">
                         <div class="form-group " >
                             <label for="emailInput" class="my-1 small font-weight-bold text-muted">E-mail</label>
                             <input type="email" class="text-input form-control " id="emailInput" placeholder="Input email..." required>
                         </div>
                     </div>
-                    <div class="col col-md-6 col-xl-2">
+                    <div class="col col-md-6 col-xl-2 ">
                         <div class="form-group">
                             <label for="roomTypeInput" class="my-1 small font-weight-bold text-muted">Room Type <i class="fas fa-info-circle ml-1" data-toggle="tooltip" data-placement="right" title="Tooltip right lorem sdaasddas"></i></label>
                             <select class="form-control text-input  text-muted" id="roomTypeInput">
@@ -181,20 +181,20 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col col-md-4 col-xl-2">
+                    <div class="col col-md-4 col-xl-2 ">
                             <div class="form-group">
                                 <label for="checkInDateInput" class="my-1 small font-weight-bold text-muted d-block">Check-in <i class="fas fa-info-circle ml-1" data-toggle="tooltip" data-placement="right" title="Tooltip right lorem sdaasddas"></i></label>
                                 <input type="date" class="form-control text-input  text-muted" id="checkInDateInput" required>
                             </div>
                     </div>
-                    <div class="col col-md-4 col-xl-2">
+                    <div class="col col-md-4 col-xl-2 ">
                             <div class="form-group">
                                 <label for="checkOutDateInput" class="my-1 small font-weight-bold text-muted d-block">Check-out <i class="fas fa-info-circle ml-1" data-toggle="tooltip" data-placement="right" title="Tooltip right lorem sdaasddas"></i></label>
                                 <input type="date" class="form-control text-input  text-muted" id="checkOutDateInput" required>
                             </div>
                     </div>
 
-                    <div class="col col-md-2  col-xl-2">
+                    <div class="col col-md-2  col-xl-2 ">
                             <div class="form-group">
                                 <label for="guestsInput" class="my-1 small font-weight-bold text-muted d-block">Guest</i></label>
                                 <select class="form-control text-input  text-muted" id="guestsInput">
@@ -207,7 +207,7 @@
                                     </select>
                             </div>
                     </div>
-                    <div class="col col-md-2  col-xl-1 mt-2 mt-md-4">
+                    <div class="col col-md-2  col-xl-1 mt-2 mt-md-4 d-flex  justify-content-end">
                             <div class="form-group">
                                 <input type="submit" class="btn btn-info btn-sm" value="Book Now">
                             </div>
@@ -216,7 +216,164 @@
         </form>
     </div>
 
+    <div class="favorite-room">
+        <div class="row">
+            <div class="container ">
+                <div class="col-12 d-flex justify-content-center align-items-center lined-header position-relative mb-5">
+                    <h2 class="h3 bg-white z-index-1 px-4 mb-0 ">Guests Favorite Rooms</h2>
+                </div>
+                <div class="col-12 d-flex  flex-wrap px-0">
+                            <div class="col-12 col-lg card p-0 mb-5 ">
+                                    <img src="http://lorempixel.com/300/200/" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex justify-content-between">
+                                        <p > Card title</p>
+                                        <div class="price  text-color-logo">
+                                            € 99
+                                            <small class="small d-block text-muted">a night</small>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="card-body border">
+                                    <h5 class="card-title text-color-logo">A modern hotel room in Star Hotel</h5>
+                                    <p>
+                                        <span>A modern hotel room in Star Hotel</span>
+                                        Nunc tempor erat in magna pulvinar fermentum. Pellentesque scelerisque at leo nec vestibulum. 
+                                        malesuada metus.
+                                    </p>
+            
+                                </div>
+                                <div class="card-body d-flex align-items-center justify-content-center flex-wrap px-0">
+                                    <div class="col-6">
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                        <a href="#" class="btn btn-info w-100">READ MORE</a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg card p-0 mb-5 ">
+                                    <img src="http://lorempixel.com/300/200/" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title d-flex justify-content-between">
+                                        <p > Card title</p>
+                                        <div class="price  text-color-logo">
+                                            € 99
+                                            <small class="small d-block text-muted">a night</small>
+                                        </div>
+                                    </h5>
+                                </div>
+                                <div class="card-body border">
+                                    <h5 class="card-title text-color-logo">A modern hotel room in Star Hotel</h5>
+                                    <p>
+                                        <span>A modern hotel room in Star Hotel</span>
+                                        Nunc tempor erat in magna pulvinar fermentum. Pellentesque scelerisque at leo nec vestibulum. 
+                                        malesuada metus.
+                                    </p>
+            
+                                </div>
+                                <div class="card-body d-flex align-items-center justify-content-center flex-wrap px-0">
+                                    <div class="col-6">
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                            <li class="list-group-item border-0"><i class="fa fa-check-circle text-color-logo mr-2"></i>Cras justo odio</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                        <a href="#" class="btn btn-info w-100">READ MORE</a>
+                                </div>
+                            </div>
+                </div>
+                
 
+            </div>
+        </div>
+    </div>
+
+    <div class="usp-section">
+        <div class="row ">
+            <div class="container mb-5">
+                <div class="col-12 d-flex justify-content-center align-items-center lined-header position-relative mb-5">
+                    <h2 class="h3 bg-white z-index-1 px-4 mb-0 ">Guests Favorite Rooms</h2>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                        <div class="col-lg-3  d-flex flex-column align-items-center">
+                                <div class="fit-content circle border-info border mb-3">
+                                    <i class="fas fa-glass-martini text-color-logo"></i>
+                                </div>
+                                <div class="card-body p-0 text-center">
+                                    <h5 class="card-tittle ">Beverages included</h5>
+                                    <div class="card-text text-muted small ">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="#" class="btn text-color-logo font-weight-bold">Read more ></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3  d-flex flex-column align-items-center">
+                                <div class="fit-content circle border-info border mb-3">
+                                    <i class="fas fa-glass-martini text-color-logo"></i>
+                                </div>
+                                <div class="card-body p-0 text-center">
+                                    <h5 class="card-tittle ">Beverages included</h5>
+                                    <div class="card-text text-muted small ">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="#" class="btn text-color-logo font-weight-bold">Read more ></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3  d-flex flex-column align-items-center">
+                                <div class="fit-content circle border-info border mb-3">
+                                    <i class="fas fa-glass-martini text-color-logo"></i>
+                                </div>
+                                <div class="card-body p-0 text-center">
+                                    <h5 class="card-tittle ">Beverages included</h5>
+                                    <div class="card-text text-muted small ">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="#" class="btn text-color-logo font-weight-bold">Read more ></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3  d-flex flex-column align-items-center">
+                                <div class="fit-content circle border-info border mb-3">
+                                    <i class="fas fa-glass-martini text-color-logo"></i>
+                                </div>
+                                <div class="card-body p-0 text-center">
+                                    <h5 class="card-tittle ">Beverages included</h5>
+                                    <div class="card-text text-muted small ">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    </div>
+                                    <a href="#" class="btn text-color-logo font-weight-bold">Read more ></a>
+                                </div>
+                            </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

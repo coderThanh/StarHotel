@@ -37,6 +37,14 @@
     width: fit-content;
 }
 
+.icon-circle:hover,
+.icon-circle:active {
+    background-color: #5abac6;
+    border-color: #5abac6;
+    color: #fff;
+    transform: scale(1.2)
+}
+
 /* ===================contactBar============================ */
 .bg-black {
     background-color: rgba(0, 0, 0, 0.9);
@@ -81,3 +89,7 @@
 }
 
 /* =====================usp section============================ */
+
+.icon-circle {
+    transition: all 0.3s;
+}

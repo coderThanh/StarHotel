@@ -70,6 +70,14 @@
     text-overflow: ellipsis;
 }
 
+.height-400 {
+    height: 400px;
+}
+
+.height-300 {
+    height: 300px;
+}
+
 /* ===================contactBar============================ */
 .bg-black {
     background-color: rgba(0, 0, 0, 0.9);

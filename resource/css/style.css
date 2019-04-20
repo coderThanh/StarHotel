@@ -150,3 +150,14 @@
     text-align: left;
 }
 
+/* =====================Footer================================= */
+
+.footer-info {
+    background-color: #3c3c3c;
+}
+
+.footer-bottom {
+    background-color: #272727;
+}
+
+

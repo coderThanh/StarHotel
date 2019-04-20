@@ -104,16 +104,33 @@
 
 /* ===========booking-navigation=========== */
 
-/* ===============favorite rooms========================== */
+.icon-navbar {
+    position: absolute;
+    right: 5px;
+    top: -60px;
+}
+
+.sticky {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 20;
+}
+
 
 .lined-header::before {
     display: block;
     content: "";
-    border-top: 0.2rem solid rgba(108, 117, 125, 0.5);
+    border-top: 0.2rem solid rgba(108, 117, 125, 0.4);
     width: 100%;
     position: absolute;
     top: 50%;
 }
+
+
+/* ===============favorite rooms========================== */
+
 
 
 .favorite-room-img {

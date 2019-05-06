@@ -96,10 +96,11 @@
 
 /* ========================slide header============================ */
 .slide-item {
-    height: 20rem;
+    height: 30rem;
     background-image: url(https://images.vexels.com/media/users/3/144655/raw/421f642bebdb00d01783ace161cd9639-flat-hiking-landscape-illustration.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 60% 60%;
+    background-attachment: fixed;
 }
 
 /* ===========booking-navigation=========== */
@@ -147,7 +148,7 @@
 /* =====================checkout blog===================== */
 
 #parralax-img {
-    height: 300px;
+    height: 25rem;
     background-image: url(http://lorempixel.com/1900/1000/);
     background-size: cover;
     background-position: center;
